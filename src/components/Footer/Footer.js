@@ -1,17 +1,3 @@
-import { Link } from 'components/Link';
-import { Text } from 'components/Text';
-import { classes } from 'utils/style';
-import styles from './Footer.module.css';
-
-export const Footer = ({ className }) => (
-  <footer className={classes(styles.footer, className)}>
-    <Text size="s" align="center">
-      <span className={styles.date}>
-        {`© ${new Date().getFullYear()} Hamish Williams.`}
-      </span>
-      <Link secondary className={styles.link} href="/humans.txt" target="_self">
-        Crafted by yours truly
-      </Link>
-    </Text>
-  </footer>
-);
+version https://git-lfs.github.com/spec/v1
+oid sha256:baaef99f4d8cfb7a51917bfff9407d41687d5b29a95462babe2c17dca5c3bdf9
+size 435
