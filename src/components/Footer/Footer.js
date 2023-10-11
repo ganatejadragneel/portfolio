@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:449e0d7bc61353f00e7a189ccc72ac4b88b8a3908d01ec19879bd6a4b8109421
-size 395
+import { Text } from 'components/Text';
+import { classes } from 'utils/style';
+import styles from './Footer.module.css';
+
+export const Footer = ({ className }) => (
+  <footer className={classes(styles.footer, className)}>
+    <Text size="s" align="center">
+      <span className={styles.date}>
+        {`© ${new Date().getFullYear()} Gana Teja Akula.`}
+      </span>
+    </Text>
+  </footer>
+);
