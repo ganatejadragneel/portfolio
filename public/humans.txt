@@ -1,3 +1,32 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:53a6b104bec2fdf5aa66248bc83e0b30e4b10a024b03b84d69e9e691a19c82b5
-size 601
+__  __  __
+\ \ \ \ \/
+ \ \/\ \
+  \/  \/
+
+The humans.txt file explains the technology,
+and graphic assets behind this site humanstxt.org.
+
+_______________________________________________________________________________
+
+SOFTWARE DEVELOPER
+
+Gana Teja Akula
+
+linkedin.com/in/gana-teja-akula/
+github.com/ganatejadragneel
+
+_______________________________________________________________________________
+
+TECHNOLOGY | テクノロジー
+
+React
+Next.js
+Three.js
+Framer Motion
+
+_______________________________________________________________________________
+
+FONTS | フォント
+
+Gotham
+Hiragino Kaku Gothic

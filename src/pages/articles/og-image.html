@@ -1,3 +1,46 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5ee6b5c549fc75fcf2eed16d05dc50c445066d557a2816d1194f8e5f47f97554
-size 1613
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../../layouts/App/reset.css" />
+    <link rel="stylesheet" href="./og-image.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <header class="header">
+        <div class="divider"></div>
+        <span class="date"></span>
+      </header>
+      <h1 class="title"></h1>
+      <footer class="footer">
+        <div class="author">
+          <img class="avatar" src="../../../public/static/avatar.jpg" alt="Hamish" />
+          <span>Gana Teja Akula</span>
+        </div>
+        <div class="timecode"></div>
+      </footer>
+    </main>
+    <script>
+      const container = document.querySelector('.container');
+      const title = document.querySelector('.title');
+      const date = document.querySelector('.date');
+      const timecode = document.querySelector('.timecode');
+
+      const params = new URLSearchParams(window.location.search);
+      const postDate = new Date(params.get('date') || '2022-01-01');
+      const defaultBanner = '/static/og-blank.png';
+      const bannerImage = params.get('banner') || defaultBanner;
+
+      container.style.setProperty('--url', `url('../../../public${bannerImage}')`);
+      title.textContent = params.get('title') || 'Untitled';
+      timecode.textContent = params.get('timecode') || '00:00:00:00';
+      date.textContent = postDate.toLocaleDateString('default', {
+        year: 'numeric',
+        month: 'long',
+        day: '2-digit',
+      });
+    </script>
+  </body>
+</html>

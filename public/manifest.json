@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:644464793fbf5586e058192bbfb15454345d8030478171a7848f57397ec1b15f
-size 491
+{
+  "short_name": "Gana Teja Akula",
+  "name": "Design Portfolio of Gana Teja Akula",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#111111",
+  "background_color": "#111111"
+}
