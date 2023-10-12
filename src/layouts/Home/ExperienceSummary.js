@@ -1,4 +1,4 @@
-import experienceKatana from 'assets/katakana-experience.svg?url';
+import experienceKatana from 'assets/experience.svg?url';
 import { Button } from 'components/Button';
 import { Divider } from 'components/Divider';
 import { Heading } from 'components/Heading';
@@ -50,7 +50,7 @@ export const ExperienceSummary = ({
       className={styles.svg}
       data-device={device}
     >
-      <use href={`${experienceKatana}#katakana-experience`} />
+      <use href={`${experienceKatana}#experience`} />
     </svg>
   );
 
