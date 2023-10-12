@@ -14,10 +14,10 @@ const ses = new aws.SES({
   region: 'us-east-1',
 });
 
-const ORIGINS = ['https://www.ganatejadragneel.github.io/portfolio', 'https://ganatejadragneel.github.io/portfolio'];
+const ORIGINS = ['https://hamishw.com', 'https://www.hamishw.com'];
 const MAX_EMAIL_LENGTH = 512;
 const MAX_MESSAGE_LENGTH = 4096;
-const EMAIL = 'akulaganateja@gmail.com';
+const EMAIL = 'hello@hamishw.com';
 const FROM_EMAIL = 'mailbot@hamishw.com';
 const EMAIL_PATTERN = /(.+)@(.+){2,}\.(.+){2,}/;
 

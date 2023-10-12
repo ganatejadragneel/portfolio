@@ -1,9 +1,9 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "homepage": "https://ganatejadragneel.github.io/portfolio",
+  "homepage": "https://hamishw.com",
   "description": "Portfolio site for Hamish Williams",
-  "repository": "https://github.com/ganatejadragneel/portfolio.git",
+  "repository": "https://github.com/HamishMW/portfolio.git",
   "author": "Hamish Williams <hello@hamishw.com>",
   "devDependencies": {
     "@mapbox/rehype-prism": "^0.8.0",
@@ -42,7 +42,6 @@
     "next": "^12.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "resend": "^1.1.0",
     "three": "^0.146.0",
     "three-stdlib": "^2.18.1"
   },
