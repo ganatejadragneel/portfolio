@@ -5,7 +5,7 @@ export const navLinks = [
   },
   {
     label: 'Experience',
-    pathname: '/#project-3',
+    pathname: '/#experience-1',
   },
   {
     label: 'Projects',
