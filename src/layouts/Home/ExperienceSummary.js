@@ -1,4 +1,4 @@
-import experienceKatana from 'assets/experience.svg?url';
+import experienceKatana from 'assets/katakana-experience.svg?url';
 import { Button } from 'components/Button';
 import { Divider } from 'components/Divider';
 import { Heading } from 'components/Heading';
@@ -38,7 +38,7 @@ export const ExperienceSummary = ({
   const phoneSizes = `(max-width: ${media.tablet}px) 30vw, 20vw`;
   const laptopSizes = `(max-width: ${media.tablet}px) 80vw, 40vw`;
 
-  const renderKatakana = (device, visible) => (
+  const renderKatakana1 = (device, visible) => (
     <svg
       aria-hidden="true"
       width="750"
@@ -91,7 +91,7 @@ export const ExperienceSummary = ({
     <div className={styles.preview}>
       {model.type === 'laptop' && (
         <>
-          {renderKatakana('laptop', visible)}
+          {renderKatakana1('laptop', visible)}
           <div className={styles.model} data-device="laptop">
             <Model
               alt={model.alt}
@@ -113,7 +113,7 @@ export const ExperienceSummary = ({
       )}
       {model.type === 'phone' && (
         <>
-          {renderKatakana('phone', visible)}
+          {renderKatakana1('phone', visible)}
           <div className={styles.model} data-device="phone">
             <Model
               alt={model.alt}

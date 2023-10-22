@@ -7,7 +7,7 @@ import sprTextureLarge from 'assets/spr-lesson-builder-dark-large.jpg';
 import sprTexturePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
 import sprTexture from 'assets/spr-lesson-builder-dark.jpg';
 import jioImg from 'assets/jiomart-img.jpg';
-import amznJpg from 'assets/amazonKindle.jpg';
+import amznJpg from '../../../public/amazonKindle.jpg';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { Intro } from 'layouts/Home/Intro';
@@ -92,7 +92,7 @@ export const Home = () => {
         buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: 'Music jukebox',
           textures: [
             {
               srcSet: [sprTexture, sprTextureLarge],
@@ -149,7 +149,7 @@ export const Home = () => {
         index={1}
         title="Reliance Jio Platforms Limited"
         description="Software Engineer"
-        buttonText="View project"
+        buttonText="View Details"
         buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
@@ -170,7 +170,7 @@ export const Home = () => {
         index={2}
         title="Amazon"
         description="Software Development Engineer"
-        buttonText="View project"
+        buttonText="View Details"
         buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
@@ -190,7 +190,7 @@ export const Home = () => {
         index={3}
         title="Amazon"
         description="Software Development Engineer Intern"
-        buttonText="View project"
+        buttonText="View Details"
         buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
