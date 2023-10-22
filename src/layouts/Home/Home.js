@@ -7,7 +7,7 @@ import sprTextureLarge from 'assets/spr-lesson-builder-dark-large.jpg';
 import sprTexturePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
 import sprTexture from 'assets/spr-lesson-builder-dark.jpg';
 import jioImg from 'assets/jiomart-img.jpg';
-import amznJpg from '../../../public/amazonKindle.jpg';
+import amznJpg from 'assets/amazonKindle.jpg';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { Intro } from 'layouts/Home/Intro';
