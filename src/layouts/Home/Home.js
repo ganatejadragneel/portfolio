@@ -26,10 +26,14 @@ export const Home = () => {
   const projectOne = useRef();
   const projectTwo = useRef();
   const projectThree = useRef();
+  const experienceOne = useRef();
+  const experienceTwo = useRef();
+  const experienceThree = useRef();
   const details = useRef();
 
   useEffect(() => {
-    const sections = [intro, details,  projectOne, projectTwo, projectThree];
+    const sections = [intro, details,  projectOne, projectTwo, projectThree, 
+      experienceOne, experienceTwo, experienceThree];
 
     const sectionObserver = new IntersectionObserver(
       (entries, observer) => {
@@ -144,8 +148,8 @@ export const Home = () => {
       />
       <ExperienceSummary
         id="experience-1"
-        sectionRef={projectOne}
-        visible={visibleSections.includes(projectOne.current)}
+        sectionRef={experienceOne}
+        visible={visibleSections.includes(experienceOne.current)}
         index={1}
         title="Reliance Jio Platforms Limited"
         description="Software Engineer"
@@ -165,8 +169,8 @@ export const Home = () => {
       <ExperienceSummary
         id="experience-2"
         alternate
-        sectionRef={projectTwo}
-        visible={visibleSections.includes(projectTwo.current)}
+        sectionRef={experienceTwo}
+        visible={visibleSections.includes(experienceTwo.current)}
         index={2}
         title="Amazon"
         description="Software Development Engineer"
@@ -185,8 +189,8 @@ export const Home = () => {
       />
       <ExperienceSummary
         id="experience-3"
-        sectionRef={projectThree}
-        visible={visibleSections.includes(projectThree.current)}
+        sectionRef={experienceThree}
+        visible={visibleSections.includes(experienceThree.current)}
         index={3}
         title="Amazon"
         description="Software Development Engineer Intern"

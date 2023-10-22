@@ -1,7 +1,6 @@
 module.exports = {
   reactStrictMode: true,
   trailingSlash: true,
-  assetPrefix: '/portfolio/',
   pageExtensions: ['page.js', 'api.js'],
   webpack(config, { isServer }) {
     // Run custom scripts
