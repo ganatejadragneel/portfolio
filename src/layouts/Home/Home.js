@@ -1,5 +1,5 @@
 import gamestackTexturePlaceholder from 'assets/gamestack-login-placeholder.jpg';
-import gamestackTexture from './../../assets/travian.jpg';
+import gamestackTexture from 'assets/travian.jpg';
 import sliceTextureLarge from 'assets/slice-app-large.jpg';
 import sliceTexturePlaceholder from 'assets/slice-app-placeholder.jpg';
 import sliceTexture from 'assets/slice-app.jpg';
@@ -132,7 +132,8 @@ export const Home = () => {
         visible={visibleSections.includes(projectThree.current)}
         index={3}
         title="Online printing service"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        description="Webapp to make students life easier by allowing students to
+         upload documents from the comfort of their home and getting the printouts from the shop."
         buttonText="View Social Page"
         buttonLink="https://www.facebook.com/xerohooks/"
         model={{
@@ -151,13 +152,13 @@ export const Home = () => {
         sectionRef={experienceOne}
         visible={visibleSections.includes(experienceOne.current)}
         index={1}
-        title="Reliance Jio Platforms Limited"
-        description="Software Engineer"
+        title="Reliance Jio Platforms Limited - Software Engineer"
+        description="Coupons Management Team"
         buttonText="View Details"
         buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: 'Coupons Management Team',
           textures: [
             {
               srcSet: [jioImg, jioImg],
@@ -172,13 +173,13 @@ export const Home = () => {
         sectionRef={experienceTwo}
         visible={visibleSections.includes(experienceTwo.current)}
         index={2}
-        title="Amazon"
-        description="Software Development Engineer"
+        title="Amazon - Software Development Engineer"
+        description="Kindle Conversion Team"
         buttonText="View Details"
         buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: 'Software Development Engineer',
           textures: [
             {
               srcSet: [amznJpg, amznJpg],
@@ -192,13 +193,13 @@ export const Home = () => {
         sectionRef={experienceThree}
         visible={visibleSections.includes(experienceThree.current)}
         index={3}
-        title="Amazon"
-        description="Software Development Engineer Intern"
+        title="Amazon - Software Development Engineer Intern"
+        description="Kindle Conversion Team"
         buttonText="View Details"
         buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: 'Software Development Engineer Intern',
           textures: [
             {
               srcSet: [amznJpg, amznJpg],

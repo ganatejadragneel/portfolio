@@ -169,7 +169,7 @@ export const Articles = ({ posts, featured }) => {
     </div>
   );
 
-  const featuredPost = <ArticlesPost {...featured} />;
+  //const featuredPost = <ArticlesPost {...featured} />;
 
   return (
     <article className={styles.articles}>
@@ -181,13 +181,13 @@ export const Articles = ({ posts, featured }) => {
         {!isSingleColumn && (
           <div className={styles.grid}>
             {postList}
-            {featuredPost}
+            {/* {featuredPost} */}
           </div>
         )}
         {isSingleColumn && (
           <div className={styles.grid}>
             {postsHeader}
-            {featuredPost}
+            {/* {featuredPost} */}
             {postList}
           </div>
         )}
