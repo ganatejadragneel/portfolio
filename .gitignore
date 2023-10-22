@@ -60,7 +60,6 @@ typings/
 build/
 build-storybook/
 public/sitemap.xml
-public/draco/
 public/og
 .serverless
 .next

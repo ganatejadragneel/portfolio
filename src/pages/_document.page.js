@@ -9,7 +9,7 @@ export default function Document() {
       <Head>
         <meta charSet="utf-8" />
 
-        <link rel="manifest" href="/manifest.json" />
+        <link rel="manifest" href="https://raw.githubusercontent.com/ganatejadragneel/portfolio/main/public/manifest.json" />
         <link rel="shortcut icon" href="https://raw.githubusercontent.com/ganatejadragneel/portfolio/main/public/favicon.png
 " type="image/png" />
         <link rel="apple-touch-icon" href="/icon-256.png" />
