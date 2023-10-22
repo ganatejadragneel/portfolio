@@ -155,7 +155,7 @@ export const Home = () => {
         title="Reliance Jio Platforms Limited - Software Engineer"
         description="Coupons Management Team"
         buttonText="View Details"
-        buttonLink="/projects/smart-sparrow"
+        buttonLink="/experience/jioFT"
         model={{
           type: 'laptop',
           alt: 'Coupons Management Team',
@@ -176,7 +176,7 @@ export const Home = () => {
         title="Amazon - Software Development Engineer"
         description="Kindle Conversion Team"
         buttonText="View Details"
-        buttonLink="/projects/smart-sparrow"
+        buttonLink="/experience/amznFT"
         model={{
           type: 'laptop',
           alt: 'Software Development Engineer',
@@ -196,7 +196,7 @@ export const Home = () => {
         title="Amazon - Software Development Engineer Intern"
         description="Kindle Conversion Team"
         buttonText="View Details"
-        buttonLink="/projects/smart-sparrow"
+        buttonLink="/experience/amznIntern"
         model={{
           type: 'laptop',
           alt: 'Software Development Engineer Intern',

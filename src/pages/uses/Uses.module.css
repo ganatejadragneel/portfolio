@@ -4,9 +4,9 @@
 
 .section {
   opacity: 0;
-  padding-top: var(--space2XL);
-  padding-bottom: var(--space2XL);
-  margin-top: var(--space2XL);
+  padding-top: var(--space1XL);
+  padding-bottom: var(--space1XL);
+  margin-top: var(--space1XL);
 
   &:global {
     animation: fadeIn 1s ease 1s forwards;
