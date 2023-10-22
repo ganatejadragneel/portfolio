@@ -6,6 +6,8 @@ import sliceTexture from 'assets/slice-app.jpg';
 import sprTextureLarge from 'assets/spr-lesson-builder-dark-large.jpg';
 import sprTexturePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
 import sprTexture from 'assets/spr-lesson-builder-dark.jpg';
+import jioImg from 'assets/jiomart-img.jpg';
+import amznJpg from 'assets/amazonKindle.jpg';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { Intro } from 'layouts/Home/Intro';
@@ -114,7 +116,7 @@ export const Home = () => {
           alt: 'App login screen',
           textures: [
             {
-              srcSet: [gamestackTexture],
+              srcSet: [gamestackTexture, gamestackTexture],
               placeholder: gamestackTexturePlaceholder,
             }
           ],
@@ -154,7 +156,7 @@ export const Home = () => {
           alt: 'Smart Sparrow lesson builder',
           textures: [
             {
-              srcSet: [sprTexture, sprTextureLarge],
+              srcSet: [jioImg, jioImg],
               placeholder: sprTexturePlaceholder,
             },
           ],
@@ -175,7 +177,7 @@ export const Home = () => {
           alt: 'Smart Sparrow lesson builder',
           textures: [
             {
-              srcSet: [sprTexture, sprTextureLarge],
+              srcSet: [amznJpg, amznJpg],
               placeholder: sprTexturePlaceholder,
             },
           ],
@@ -195,7 +197,7 @@ export const Home = () => {
           alt: 'Smart Sparrow lesson builder',
           textures: [
             {
-              srcSet: [sprTexture, sprTextureLarge],
+              srcSet: [amznJpg, amznJpg],
               placeholder: sprTexturePlaceholder,
             },
           ],
