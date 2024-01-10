@@ -18,25 +18,25 @@ import styles from './Profile.module.css';
 const ProfileText = ({ visible, titleId }) => (
   <Fragment>
     <Heading className={styles.title} data-visible={visible} level={3} id={titleId}>
-      <DecoderText text="Hi there" start={visible} delay={500} />
+      <DecoderText text="Hi there!" start={visible} delay={500} />
     </Heading>
-    <Text className={styles.description} data-visible={visible} size="l" as="p">
+    <Text>
       I&#39;m Gana Teja, currently I live in Sunderland, Massachussets studying in UMass Amherst as a graduate student for the 
       Masters in Computer Science Program. </Text>
+      <br/>
       
-    <Text> I have 3yrs of work experience in Software development where my job pertained to 
-      working in creating new modules/ API&#39;s and working to improve the scalability and performance of the products by 
-      optimising the code. My projects include Full stack development, Application development and ML models. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my skillset below.  </Text>
+    <Text> With three years of experience in software development, I specialize in creating new modules/APIs and enhancing product scalability and 
+      performance through code optimization. My expertise spans full-stack development, application development, and machine learning models, with a 
+      proficiency in rapid prototyping and experience validation. For details on the tools and software I utilize, please refer to my skillset below.  </Text>
     <br/>
     <Text><Link href="/uses">Skillset</Link>.</Text>
     <br/>
-    <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I&#39;m an adventurous foodie and an avid traveller who loves exploring new flavors and cultures. Can&#39;t resist a cute dog 
-      (especially a Samoyed or a Malamute). I seek fun conversations about movies and anime. Love embarking on exciting journeys and 
-      unforgettable memories. 
+    <Text>
+    As an adventurous foodie and passionate traveler, I thrive on exploring diverse flavors and cultures. Irresistibly drawn to cute dogs, particularly 
+    Samoyeds and Malamutes, I also enjoy engaging in lively discussions about movies and anime. My zest for life is fueled by embarking on thrilling adventures 
+    and creating unforgettable memories.
     </Text>
+    <br/>
     <Text>When I&#39;m not working, I like to spend time reading light novels, playing dota and watching Manchester United break my heart (It is what it is). </Text>
   </Fragment>
 );
