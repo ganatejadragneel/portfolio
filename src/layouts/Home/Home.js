@@ -4,8 +4,8 @@ import sliceTextureLarge from 'assets/slice-app-large.jpg';
 import sliceTexturePlaceholder from 'assets/slice-app-placeholder.jpg';
 import sliceTexture from 'assets/slice-app.jpg';
 import sprTextureLarge from 'assets/spr-lesson-builder-dark-large.jpg';
-import sprTexturePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
 import sprTexture from 'assets/spr-lesson-builder-dark.jpg';
+import sprTexturePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
 import jioImg from 'assets/jiomart-img.jpg';
 import amznJpg from 'assets/amazonKindle.jpg';
 import { Footer } from 'components/Footer';
@@ -17,7 +17,7 @@ import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 import { ExperienceSummary } from './ExperienceSummary';
 
-const disciplines = ['Backend' ,'Prototyper', 'Modder', 'Tester', 'Designer'];
+const disciplines = ['Backend', 'Prototyper', 'Modder', 'Tester', 'Designer'];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -32,7 +32,7 @@ export const Home = () => {
   const details = useRef();
 
   useEffect(() => {
-    const sections = [intro, details,  projectOne, projectTwo, projectThree, 
+    const sections = [intro, details, projectOne, projectTwo, projectThree,
       experienceOne, experienceTwo, experienceThree];
 
     const sectionObserver = new IntersectionObserver(
@@ -90,13 +90,13 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Music Jukebox"
-        description="Application where one can customize playlist, add their songs, shuffle and download them"
-        buttonText="View project"
-        buttonLink="/projects/smart-sparrow"
+        title="Smart Music"
+        description="Application where one can play songs, view by country, do interesting searches with the openapi search to get unique results."
+        buttonText="View website"
+        buttonLink="https://smartmusic.netlify.app/"
         model={{
           type: 'laptop',
-          alt: 'Music jukebox',
+          alt: 'Smart Music',
           textures: [
             {
               srcSet: [sprTexture, sprTextureLarge],

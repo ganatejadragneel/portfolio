@@ -141,7 +141,7 @@ const SkeletonPost = ({ index }) => {
   );
 };
 
-export const Articles = ({ posts, featured }) => {
+export const Articles = ({ posts }) => {
   const { width } = useWindowSize();
   const singleColumnWidth = 1190;
   const isSingleColumn = width <= singleColumnWidth;
